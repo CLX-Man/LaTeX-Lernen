@@ -4,4 +4,4 @@ test.pdf: test.tex
 	pdflatex test.tex
 
 clean:
-	rm -f *.aux *.log *.out
+	rm -f *.aux *.log *.out *.fdb_latexmk *.fls *.gz
